@@ -1,0 +1,4 @@
+[13-Aug-2015 23:25:50 UTC] PHP Fatal error:  Class 'Slim' not found in /home/ubuntu/workspace/app/start.php on line 12
+[13-Aug-2015 23:25:50 UTC] PHP Stack trace:
+[13-Aug-2015 23:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[13-Aug-2015 23:25:50 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
