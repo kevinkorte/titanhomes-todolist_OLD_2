@@ -2,3 +2,22 @@
 [13-Aug-2015 23:25:50 UTC] PHP Stack trace:
 [13-Aug-2015 23:25:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
 [13-Aug-2015 23:25:50 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[13-Aug-2015 23:41:49 UTC] PHP Warning:  require(/home/ubuntu/workspace../secrets/secrets.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/start.php on line 13
+[13-Aug-2015 23:41:49 UTC] PHP Stack trace:
+[13-Aug-2015 23:41:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[13-Aug-2015 23:41:49 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[13-Aug-2015 23:41:49 UTC] PHP Fatal error:  require(): Failed opening required '/home/ubuntu/workspace../secrets/secrets.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/start.php on line 13
+[13-Aug-2015 23:41:49 UTC] PHP Stack trace:
+[13-Aug-2015 23:41:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[13-Aug-2015 23:41:49 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[13-Aug-2015 23:50:58 UTC] PHP Fatal error:  Uncaught exception 'Noodlehaus\Exception\FileNotFoundException' with message 'Configuration file: [/home/ubuntu/workspace/app/config/{$app->mode}.php] cannot be found' in /home/ubuntu/workspace/vendor/hassankhan/config/src/Config.php:153
+Stack trace:
+#0 /home/ubuntu/workspace/vendor/hassankhan/config/src/Config.php(54): Noodlehaus\Config->getValidPath('/home/ubuntu/wo...')
+#1 /home/ubuntu/workspace/vendor/hassankhan/config/src/Config.php(42): Noodlehaus\Config->__construct('/home/ubuntu/wo...')
+#2 /home/ubuntu/workspace/app/start.php(21): Noodlehaus\Config::load('/home/ubuntu/wo...')
+#3 [internal function]: {closure}()
+#4 /home/ubuntu/workspace/vendor/slim/slim/Slim/Slim.php(388): call_user_func(Object(Closure))
+#5 /home/ubuntu/workspace/app/start.php(22): Slim\Slim->configureMode('development', Object(Closure))
+#6 /home/ubuntu/workspace/public/index.php(3): require('/home/ubuntu/wo...')
+#7 {main}
+  thrown in /home/ubuntu/workspace/vendor/hassankhan/config/src/Config.php on line 153
