@@ -21,3 +21,13 @@ Stack trace:
 #6 /home/ubuntu/workspace/public/index.php(3): require('/home/ubuntu/wo...')
 #7 {main}
   thrown in /home/ubuntu/workspace/vendor/hassankhan/config/src/Config.php on line 153
+[17-Aug-2015 23:20:29 UTC] PHP Fatal error:  Class 'Capusle' not found in /home/ubuntu/workspace/app/database.php on line 5
+[17-Aug-2015 23:20:29 UTC] PHP Stack trace:
+[17-Aug-2015 23:20:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[17-Aug-2015 23:20:29 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[17-Aug-2015 23:20:29 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:26
+[17-Aug-2015 23:20:31 UTC] PHP Fatal error:  Class 'Capusle' not found in /home/ubuntu/workspace/app/database.php on line 5
+[17-Aug-2015 23:20:31 UTC] PHP Stack trace:
+[17-Aug-2015 23:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[17-Aug-2015 23:20:31 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[17-Aug-2015 23:20:31 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:26

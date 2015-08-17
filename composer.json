@@ -1,4 +1,9 @@
 {
+    "autoload": {
+        "psr-4": {
+            "Titanhomes\\": "app/Titanhomes"
+        }
+    },
     "require": {
         "slim/slim": "~2.0",
         "slim/views": "0.1.*",
