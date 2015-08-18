@@ -31,3 +31,13 @@ Stack trace:
 [17-Aug-2015 23:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
 [17-Aug-2015 23:20:31 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
 [17-Aug-2015 23:20:31 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:26
+[18-Aug-2015 15:09:21 UTC] PHP Warning:  require(INC_ROOT/app/routes/home.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/app/routes.php on line 3
+[18-Aug-2015 15:09:21 UTC] PHP Stack trace:
+[18-Aug-2015 15:09:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[18-Aug-2015 15:09:21 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[18-Aug-2015 15:09:21 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:32
+[18-Aug-2015 15:09:21 UTC] PHP Fatal error:  require(): Failed opening required 'INC_ROOT/app/routes/home.php' (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/app/routes.php on line 3
+[18-Aug-2015 15:09:21 UTC] PHP Stack trace:
+[18-Aug-2015 15:09:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[18-Aug-2015 15:09:21 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[18-Aug-2015 15:09:21 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:32
