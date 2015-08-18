@@ -1,3 +1,4 @@
 /.c9
 php.ini
 vendor/
+php_errors.log
