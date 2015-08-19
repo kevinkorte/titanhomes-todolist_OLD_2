@@ -41,3 +41,19 @@ Stack trace:
 [18-Aug-2015 15:09:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
 [18-Aug-2015 15:09:21 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
 [18-Aug-2015 15:09:21 UTC] PHP   3. require() /home/ubuntu/workspace/app/start.php:32
+[19-Aug-2015 23:35:14 UTC] PHP Fatal error:  Class 'Titanhomes\Helpers\Hash' not found in /home/ubuntu/workspace/app/start.php on line 55
+[19-Aug-2015 23:35:14 UTC] PHP Stack trace:
+[19-Aug-2015 23:35:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[19-Aug-2015 23:35:14 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[19-Aug-2015 23:35:15 UTC] PHP Fatal error:  Class 'Titanhomes\Helpers\Hash' not found in /home/ubuntu/workspace/app/start.php on line 55
+[19-Aug-2015 23:35:15 UTC] PHP Stack trace:
+[19-Aug-2015 23:35:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[19-Aug-2015 23:35:15 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[19-Aug-2015 23:35:50 UTC] PHP Fatal error:  Class 'Titanhomes\Helpers\Hash' not found in /home/ubuntu/workspace/app/start.php on line 40
+[19-Aug-2015 23:35:50 UTC] PHP Stack trace:
+[19-Aug-2015 23:35:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/public/index.php:0
+[19-Aug-2015 23:35:50 UTC] PHP   2. require() /home/ubuntu/workspace/public/index.php:3
+[19-Aug-2015 23:35:50 UTC] PHP   3. Slim\Slim->__get() /home/ubuntu/workspace/public/index.php:55
+[19-Aug-2015 23:35:50 UTC] PHP   4. Slim\Helper\Set->get() /home/ubuntu/workspace/vendor/slim/slim/Slim/Slim.php:234
+[19-Aug-2015 23:35:50 UTC] PHP   5. Slim\Helper\Set->Slim\Helper\{closure}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Helper/Set.php:88
+[19-Aug-2015 23:35:50 UTC] PHP   6. {closure:/home/ubuntu/workspace/app/start.php:39-41}() /home/ubuntu/workspace/vendor/slim/slim/Slim/Helper/Set.php:228
